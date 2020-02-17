@@ -1,0 +1,125 @@
+
+.display
+{
+  
+  box-shadow: 0 0 2px 1px gray;
+  padding: 10px;
+  margin: 5px 0;
+
+}
+ .receiver{
+ 	display: inline-block;
+	margin-top: 5px;
+}
+
+ .sender{
+
+ 	display: block;
+	margin-top: 5px;
+}
+
+
+.receiver .sent
+{	
+	padding: 15px;
+	font-weight: 400;
+	font-size: 17px;
+	text-align: left;
+	text-align: justify;
+	border-radius: 10px;
+	background-color: #ccc;
+	overflow: hidden;
+	letter-spacing: 1px;
+	box-shadow: 0 0 2px 2px gray;
+	cursor: pointer;
+}
+
+.sender .outbox
+{	
+	padding: 15px;
+	font-weight: 400;
+	font-size: 17px;
+	text-align: left;
+	text-align: justify;
+	border-radius: 10px;
+	background-color: orange;
+	overflow: hidden;
+	letter-spacing: 1px;
+	box-shadow: 0 0 2px 2px gray;
+	cursor: pointer;
+}
+
+
+.msg
+{
+  margin-top: 30%;
+  padding: 10px;
+  /* border: 5px solid rgba(18, 72, 221, 0.883); */
+  box-shadow: 0 0 3px 2px gray;
+  border-radius: 10px;
+}
+
+.msg textarea{
+    resize: none;
+    box-shadow: 0 0 2px 1px gray;
+}
+
+
+
+.btn-send
+{
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    padding: 3px;
+    background-color: rgba(29, 12, 12, 0.664);
+    margin-top: -15px;
+    box-shadow: 0 0 3px 1px rgb(184, 178, 178);
+}
+
+.btn-send-now
+{
+    width: 75px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    line-height: -2em;
+    padding: 7px;
+    background-color:  rgba(18, 72, 221, 0.883);
+    margin-top: -15px;
+    box-shadow: 0 0 1px 1px rgb(184, 178, 178);
+}
+
+.btn-send-now:hover
+{
+    background-color: rgb(19, 18, 18);  
+}
+
+.btn-send:hover{
+    background-color: rgb(19, 18, 18);
+}
+
+.fa-paper-plane{
+    color: rgb(228, 231, 231);
+    text-align: center;
+}
+
+.fa-image
+{
+    color: rgb(195, 209, 4);
+    text-align: center;
+}
+
+.fa-smile-wink
+{
+    color: rgb(241, 229, 53);
+    text-align: center;
+}
+
+.fa-map-marker-alt
+{
+    color: rgba(32, 236, 14, 0.884);
+    text-align: center;
+}
